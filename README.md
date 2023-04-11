@@ -1,2 +1,2 @@
 # ProyectoFinal
-Proyecto el cual va a ser creado por Aljenadro de Pablo y Oskar Stankevicius.
+Proyecto el cual va a ser creado por Alejandro de Pablo y Oskar Stankevicius.
