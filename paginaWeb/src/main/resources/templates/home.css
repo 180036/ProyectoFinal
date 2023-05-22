@@ -1,47 +1,51 @@
-body {
-	background-color: #141414;
-	color: #fff;
-	font-family: Arial, sans-serif;
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
 }
 
-h1 {
-	font-size: 36px;
-	color: #ffa600;
+.logo {
+	font-size: 24px;
+	font-weight: bold;
 }
 
-nav {
-	background-color: #0e0e0e;
-	padding: 10px;
+.user-menu {
+	display: flex;
+	gap: 10px;
 }
 
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+/* Estilos para el cuerpo */
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
 }
 
-nav ul li {
-	display: inline-block;
-	margin-right: 20px;
+.event {
+	width: 30%;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	background-color: #f2f2f2;
 }
 
-nav ul li a {
-	color: #fff;
-	text-decoration: none;
+.event-header {
+	font-size: 18px;
+	font-weight: bold;
 }
 
-nav ul li a:hover {
-	color: #ffa600;
+.event-image {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	background-color: #ccc;
 }
 
-button {
-	background-color: #ffa600;
-	border: none;
-	color: #fff;
-	padding: 10px 20px;
-	cursor: pointer;
-}
-
-button:hover {
-	background-color: #ff7b00;
+/* Estilos para el pie */
+.footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #f2f2f2;
 }

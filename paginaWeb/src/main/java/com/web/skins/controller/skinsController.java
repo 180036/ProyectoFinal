@@ -9,4 +9,8 @@ public class skinsController {
 	public String inicio() {
 		return "home";
 	}
+	@GetMapping(value = "/secured")
+	public String secured() {
+		return "prototipoInicio_1";
+	}
 }
