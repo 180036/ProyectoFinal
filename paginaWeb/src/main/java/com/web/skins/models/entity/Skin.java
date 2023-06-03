@@ -1,5 +1,7 @@
 package com.web.skins.models.entity;
 
+import java.io.Serializable;
+
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotEmpty;
@@ -13,7 +15,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="skins")
-public class Skin {
+public class Skin implements Serializable{
 	
 	//Atributos
 	@Id

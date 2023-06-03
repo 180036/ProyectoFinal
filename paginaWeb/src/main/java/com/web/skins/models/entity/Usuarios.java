@@ -1,5 +1,7 @@
 package com.web.skins.models.entity;
 
+import java.io.Serializable;
+
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Email;
@@ -12,7 +14,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Usuarios {
+public class Usuarios implements Serializable{
 	// Atributos
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
