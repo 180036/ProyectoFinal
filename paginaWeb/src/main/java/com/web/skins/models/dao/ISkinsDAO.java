@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 
 import com.web.skins.models.entity.Skin;
 import com.web.skins.repository.SkinsRepository;
-
+ 
 @Repository
 @Primary
 public class ISkinsDAO implements SkinsRepository{
