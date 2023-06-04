@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class skinsController {
 	@GetMapping(value = "/")
 	public String inicio() {
-		return "home";
+		return "index";
 	}
 	@GetMapping(value = "/secured")
 	public String secured() {
